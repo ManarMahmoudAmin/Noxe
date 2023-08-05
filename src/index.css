@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-main: #131722;
+  --text-color: white;
+  --light-main: #24baef;
+  --border-color: #a8a8a83d;
+  --font-main: "Montserrat Alternates", sans-serif;
+}
+body {
+  background-color: var(--bg-main);
+  color: var(--text-color);
+  font-family: var(--font-main);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.stop-cursor {
+  cursor: default;
+}
+
+.social-media i:hover,
+a:hover,ul li a:hover,
+.logout:hover {
+  color: var(--light-main);
+}
+
+.myInput {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+.brdr {
+  height: 1px;
+  background-color: var(--border-color);
+}
+#spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+
